@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!--
+    @author   Tom Lovie <tom.lovie@mohawkcollege.ca
+    @purpose  Client side code for COMP 10260 Assignment 3
+    @revision 2023.35.0
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="a3-q2.js"></script>
+    <title>COMP 10260 Assignment 3</title>
+</head>
+<body>
+    <header class='text-center'>
+        <h1>COMP 10260 Assignment 3</h1>
+        <h2 id='student_info'></h2>
+    </header>
+
+    <main class="text-center">
+        <h1>Game of Hangman</h1>
+
+
+        <!-- Buttons for selecting mode of game -->
+        <div class="m-2">
+            <button id="Letter_a">A</button>
+            <button id="Letter_b">B</button>
+            <button id="Letter_c">C</button>
+            <button id="Letter_d">D</button>
+            <button id="Letter_e">E</button>
+            <button id="Letter_f">F</button>
+            <button id="Letter_g">G</button>
+            <button id="Letter_h">H</button>
+            <button id="Letter_i">I</button>
+            <button id="Letter_j">J</button>
+            <button id="Letter_k">K</button>
+            <button id="Letter_l">L</button>
+            <button id="Letter_m">M</button>
+            <button id="Letter_n">N</button>
+            <button id="Letter_o">O</button>
+            <button id="Letter_p">P</button>
+            <button id="Letter_q">Q</button>
+            <button id="Letter_r">R</button>
+            <button id="Letter_s">S</button>
+            <button id="Letter_t">T</button>
+            <button id="Letter_u">U</button>
+            <button id="Letter_v">V</button>
+            <button id="Letter_w">W</button>
+            <button id="Letter_x">X</button>
+            <button id="Letter_y">Y</button>
+            <button id="Letter_z">Z</button>
+            <button id="Reset">Reset</button>
+        </div>
+
+        
+
+        <!-- Container for displaying results -->
+        <div id="resultContainer"></div>
+
+    </main>
+
+    <footer class="text-center">
+        Submitted for credit to Mohawk College, &copy;2023.
+    </footer>
+</body>
+</html>
